@@ -1,7 +1,7 @@
-# Soccer API
+# Soccer REST-API
 
 
-## Description
+### About The Project
 
 * This project designed to create a soccer API, of all teams and players in the top 5 leagues of europe (and rossia, from some reason...).
 
@@ -14,9 +14,9 @@
 * This API is meant for progremming purposes only.
 
 
-## Object keys documentation
+### Model Documentation
 
-### Team
+#### Team
 ```
 {
     no: number,                          // rank number in the league 
@@ -36,7 +36,7 @@
 }
 ```
 
-### Player
+#### Player
 ```
 {
     no: number,                  // rank on the team
@@ -58,7 +58,11 @@
 ```
 
 ## API Documentation
-### Players
+
+### ServerUrl: https://soccer-rest-api-21-22.herokuapp.com/
+
+### Endpoints:
+#### Players
 
 1. Get all players - 
     * `/api/players`
@@ -90,7 +94,7 @@
     Will return an array containing all players scored at least 10 goals, and have at least 1 assist and are on team 'Barcelona'. 
 
 
-### Teams
+#### Teams
 1. Get all teams - 
     * `/api/teams`
 2. Get team by id - 
