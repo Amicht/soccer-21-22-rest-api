@@ -4,9 +4,10 @@ import { teamsCtrl } from './server/controllers/teams-controller.mjs'
 import { errorHandler } from './server/middleware/errors-handler.mjs';
 import {ErrorModel} from './server/models/error-model.mjs';
 import {config} from 'dotenv'; config();
-
+import cors from 'cors'
 
 const server = express();
+server.use(cors());
 server.use(express.json());
 
 server.use('/api/teams',teamsCtrl);
