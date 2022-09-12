@@ -71,7 +71,7 @@
 3. Get player by name - 
     * `/api/players/${playerName}`
 4. Get top scorrers (limit the amount of players) - 
-    * `/api/players/top/scorrers?limit=10`  - will return the top 20 players that have scorred the biggest amount of goals (or maybe more in case of a equality).
+    * `/api/players/top/scorrers?limit=10`  - will return the top 10 players that have scorred the biggest amount of goals (or maybe more in case of a equality).
 5. Get top assist player (works the same as the 'scorrers' above) - 
     * `/api/players/top/assists?limit=10`
 6. Get players by position    F | F M | M | D M | S | D | GK
