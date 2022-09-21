@@ -2,7 +2,7 @@
   "name": "soccer-rest-api",
   "version": "1.0.0",
   "description": "* This project was designed to create a soccer API, of all teams and players in the top 5 leagues of europe (and rossia, from some reason...).",
-  "main": "app.mjs",
+  "main": "index.mjs",
   "scripts": {
     "start": "node ."
   },
